@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+reactivated = "*"
+pillow = "*"
+gunicorn = "*"
+
+[dev-packages]
+rich = "*"
+yapf = "*"
+
+[scripts]
+server = "python manage.py runserver"
+migarte = "python manage.py migarte"
+make = "python manage.py makemigrations"
+
