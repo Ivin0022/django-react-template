@@ -4,8 +4,10 @@ A CookieCutter template for setup a Django project with Django as a the backend 
 
 # how to get thing set up
 
-   cookiecutter https://github.com/Ivin0022/django-react-template.git
+run the following command and enter the `project name`
 
-if you having installed cookiecutter already, install it using 
+    cookiecutter https://github.com/Ivin0022/django-react-template.git
 
-  pip install cookiecutter
+if you havn't installed `cookiecutter` already, install it using 
+
+    pip install cookiecutter
