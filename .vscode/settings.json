@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "Giftable",
+        "pkul",
+        "vcnb"
+    ],
+    "editor.formatOnSave": true,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "allDocuments",
+    }
+}
