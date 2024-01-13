@@ -2,12 +2,7 @@ import React, { useContext } from "react";
 
 import { Context } from "@reactivated";
 import { Helmet } from "react-helmet-async";
-import { Provider } from 'react-redux';
-import { store } from "../store/store";
 
-
-// local
-import { Header } from "./Header";
 
 
 interface IScaffoldProps {
@@ -41,15 +36,12 @@ export const Scaffold = ({ title, children }: IScaffoldProps) => {
             </Helmet>
 
 
-            <Provider store={store}>
-                <Header />
-                <div className="grid grid-cols-5 gap-3 p-3">
-                    <aside className="col-span-1"></aside>
-                    <main className="col-span-4">
-                        {children}
-                    </main>
-                </div>
-            </Provider>
+            <div className="grid grid-cols-5 gap-3 p-3">
+                <aside className="col-span-1"></aside>
+                <main className="col-span-4">
+                    {children}
+                </main>
+            </div>
         </>
     );
 };

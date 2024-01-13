@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'reactivated',
 
     # first party
-    'server.products',
+    'server.core',
+
 ]
 
 MIDDLEWARE = [
