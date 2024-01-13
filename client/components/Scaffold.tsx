@@ -36,12 +36,7 @@ export const Scaffold = ({ title, children }: IScaffoldProps) => {
             </Helmet>
 
 
-            <div className="grid grid-cols-5 gap-3 p-3">
-                <aside className="col-span-1"></aside>
-                <main className="col-span-4">
-                    {children}
-                </main>
-            </div>
+            {children}
         </>
     );
 };

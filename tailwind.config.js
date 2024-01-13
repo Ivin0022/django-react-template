@@ -2,9 +2,7 @@
 module.exports = {
   content: ["./client/**/*.{html,js,tsx,jsx}"],
   theme: {
-    fontFamily: {
-      dancing: ['Dancing Script', 'cursive'],
-    },
+    fontFamily: {},
     extend: {},
   },
   plugins: [require("daisyui")],
