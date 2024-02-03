@@ -15,6 +15,6 @@ yapf = "*"
 
 [scripts]
 server = "python manage.py runserver"
-migarte = "python manage.py migarte"
+migrate = "python manage.py migrate"
 make = "python manage.py makemigrations"
 
